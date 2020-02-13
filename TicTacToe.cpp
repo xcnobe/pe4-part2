@@ -13,7 +13,15 @@ std::vector<std::vector<char>> CreateBoard(){
     std::vector<std::vector<char> > vec( n , std::vector<char> (m, '-'));  
     return vec;
 }
-
+void DisplayBoard(){
+	for(int i = 0; i < 3; i++){
+		for(int j = 0; j < 3; j++){
+			std::cout << SymbolVisualizer(board_[i][j]);
+		}
+		std::cout<<std::endl; 
+	}
+	std::cout<<std::endl;
+} 
 
 
 
