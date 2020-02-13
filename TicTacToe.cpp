@@ -61,19 +61,64 @@ int main(){
     char marker_char;
 
     //Round One
-    string user_choice = GetPlayerChoice();
     marker_char = 'X';
+    cout << "Turn: " << marker_char << endl;
+    string user_choice = GetPlayerChoice();
     vec = PlaceMarker(vec, user_choice, marker_char);
-    
-    
-    
-    
+    DisplayBoard(vec);
+    //Round Two
+    marker_char = 'O';
+    cout << "Turn: " << marker_char<< endl;
+    user_choice = GetPlayerChoice();
+    vec = PlaceMarker(vec, user_choice, marker_char);
+    DisplayBoard(vec);
+    //Round Three
+    marker_char = 'X';
+    cout << "Turn: " << marker_char<< endl;
+    user_choice = GetPlayerChoice();
+    vec = PlaceMarker(vec, user_choice, marker_char);
+    DisplayBoard(vec);
+    //Round Four
+    marker_char = 'O';
+    cout << "Turn: " << marker_char<< endl;
+    user_choice = GetPlayerChoice();
+    vec = PlaceMarker(vec, user_choice, marker_char);
+    DisplayBoard(vec);
+    //Round Five
+    marker_char = 'X';
+    cout << "Turn: " << marker_char<< endl;
+    user_choice = GetPlayerChoice(); 
+    vec = PlaceMarker(vec, user_choice, marker_char);
+    DisplayBoard(vec);
+    //Round Six
+    marker_char = 'O';
+    cout << "Turn: " << marker_char<< endl;
+    user_choice = GetPlayerChoice();
+    vec = PlaceMarker(vec, user_choice, marker_char);
+    DisplayBoard(vec);
+    //Round Seven
+    marker_char = 'X';
+    cout << "Turn: " << marker_char<<endl;
+    user_choice = GetPlayerChoice();
+    vec = PlaceMarker(vec, user_choice, marker_char);
+    DisplayBoard(vec);
+    //Round Eight
+    marker_char = 'O';
+    cout << "Turn: " << marker_char<< endl;
+    user_choice = GetPlayerChoice();
+    vec = PlaceMarker(vec, user_choice, marker_char);
+    DisplayBoard(vec);
+    //Round Nine
+    marker_char = 'X';
+    cout << "Turn: " << marker_char<< endl;
+    user_choice = GetPlayerChoice();
+    vec = PlaceMarker(vec, user_choice, marker_char);
     DisplayBoard(vec);
 
-    //Round Two
-    
-    
-    
+    // //Round Two
+    // string user_choice = GetPlayerChoice();
+    // marker_char = 'X';
+    // vec = PlaceMarker(vec, user_choice, marker_char);
     
     
     
