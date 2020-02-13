@@ -1,6 +1,10 @@
 # pe4-part2
 
-JC Abrahamson and Noah Berry
+Person1: JC Abrahamson 
+
+Person2: Noah Berry
+
+
 
 This program simulates a game of tic tac toe. The functions create a new 3x3 board of chars initiated with '-'. 
 The program supports turns by taking in user input and updates the baord accordingly.
