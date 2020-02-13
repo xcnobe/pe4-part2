@@ -24,6 +24,35 @@ void DisplayBoard(std::vector<std::vector<char>> vec){
     } 
 }
 
+string GetPlayerChoice(){
+    cout << "WHERE WOULD YOU LIKE TO PLAY: " << endl;
+    cout << "TL | TM | TR" << endl;
+    cout << "CL | CM | CR" << endl;
+    cout << "BL | BM | BR" << endl << endl;
+    string choice = "";
+    getline(cin, choice);
+    int i = 0;
+    char c;
+    while(choice[i]){
+        c = choice[i];
+        choice[i] = (toupper(c));
+        i++;
+    }
+    return choice;
+}
+
+std::vector<std::vector<char>> PlaceMarker(std::vector<std::vector<char> > vec, string location, char marker){
+    if(location == "TL"){vec[0][0] = marker;}
+    if(location == "TM"){vec[0][1] = marker;}
+    if(location == "TR"){vec[0][2] = marker;}
+    if(location == "CL"){vec[1][0] = marker;}
+    if(location == "CM"){vec[1][1] = marker;}
+    if(location == "CR"){vec[1][2] = marker;}
+    if(location == "BL"){vec[2][0] = marker;}
+    if(location == "BM"){vec[2][1] = marker;}
+    if(location == "BR"){vec[2][2] = marker;}
+    return vec;
+}
 
 std::vector<std::vector<char>> PlaceMarker(std::vector<std::vector<char> > vec, string location, char marker){
 
@@ -49,7 +78,20 @@ std::vector<std::vector<char>> PlaceMarker(std::vector<std::vector<char> > vec, 
 
 int main(){
     std::vector<std::vector<char>> vec = CreateBoard();
-   
+    DisplayBoard(vec);
+    char marker_char;
+
+    //Round One
+    string user_choice = GetPlayerChoice();
+    marker_char = 'X';
+    vec = PlaceMarker(vec, user_choice, marker_char);
+    
+    
+    
+    
+    DisplayBoard(vec);
+
+    //Round Two
     
     
     
