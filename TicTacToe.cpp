@@ -12,8 +12,8 @@ std::vector<std::vector<char>> CreateBoard(){
     int m = 3; 
     std::vector<std::vector<char> > vec( n , std::vector<char> (m, '-'));  
     return vec;
-}
 
+}
 void DisplayBoard(std::vector<std::vector<char>> vec){
     for(int i = 0; i < vec[0].size(); i++) {
         cout<< "|";
@@ -23,8 +23,6 @@ void DisplayBoard(std::vector<std::vector<char>> vec){
         cout<< "\n"; 
     } 
 }
-
-
 
 
 int main(){
