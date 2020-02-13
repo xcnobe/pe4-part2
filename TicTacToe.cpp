@@ -14,6 +14,16 @@ std::vector<std::vector<char>> CreateBoard(){
     return vec;
 }
 
+void DisplayBoard(std::vector<std::vector<char>> vec){
+    for(int i = 0; i < vec[0].size(); i++) {
+        cout<< "|";
+        for (int j = 0; j < vec[0].size(); j++){ 
+            std::cout<< vec[i][j]<< "|"; 
+        } 
+        cout<< "\n"; 
+    } 
+}
+
 
 
 
