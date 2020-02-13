@@ -26,7 +26,6 @@ void DisplayBoard(std::vector<std::vector<char>> vec){
 
 
 
-
 int main(){
     std::vector<std::vector<char>> vec = CreateBoard();
    
