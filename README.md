@@ -7,5 +7,8 @@ The program supports turns by taking in user input and updates the baord accordi
 It then displays the board after each new move.
 
 To run: use the main.exe execuatble file or compile the TicTacToe.cpp file yourself with:
+
+
  g++ TicTacToe.cpp -o main
+ 
  ./main
