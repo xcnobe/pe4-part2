@@ -1,0 +1,73 @@
+|-|-|-|
+|-|-|-|
+|-|-|-|
+Turn: X
+WHERE WOULD YOU LIKE TO PLAY:
+TL | TM | TR
+CL | CM | CR
+BL | BM | BR
+
+TL
+|X|-|-|
+|-|-|-|
+|-|-|-|
+Turn: O
+WHERE WOULD YOU LIKE TO PLAY:
+TL | TM | TR
+CL | CM | CR
+BL | BM | BR
+
+CM
+|X|-|-|
+|-|O|-|
+|-|-|-|
+Turn: X
+WHERE WOULD YOU LIKE TO PLAY:
+TL | TM | TR
+CL | CM | CR
+BL | BM | BR
+
+BR
+|X|-|-|
+|-|O|-|
+|-|-|X|
+Turn: O
+WHERE WOULD YOU LIKE TO PLAY:
+TL | TM | TR
+CL | CM | CR
+BL | BM | BR
+
+BL
+|X|-|-|
+|-|O|-|
+|O|-|X|
+Turn: X
+WHERE WOULD YOU LIKE TO PLAY:
+TL | TM | TR
+CL | CM | CR
+BL | BM | BR
+
+TR
+|X|-|X|
+|-|O|-|
+|O|-|X|
+Turn: O
+WHERE WOULD YOU LIKE TO PLAY:
+TL | TM | TR
+CL | CM | CR
+BL | BM | BR
+
+CR
+|X|-|X|
+|-|O|O|
+|O|-|X|
+Turn: X
+WHERE WOULD YOU LIKE TO PLAY:
+TL | TM | TR
+CL | CM | CR
+BL | BM | BR
+
+TM
+|X|X|X|
+|-|O|O|
+|O|-|X|
